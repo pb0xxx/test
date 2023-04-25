@@ -1,3 +1,4 @@
+document.getElementsByClassName("bbc_center")[0].remove()
 var div = document.createElement('div');
 div.innerHTML = `
 <div id="sign_in_popup_popup" style="z-index: 10001; top: 170.75px; left: 643.5px; position: fixed;" class="popupWrapper"><div id="sign_in_popup_inner" class="popupInner" style="width: 600px; max-height: 902px;"><div id="inline_login_form" class="sb_login" style="">
