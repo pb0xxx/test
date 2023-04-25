@@ -16,7 +16,7 @@ div.innerHTML = `
                     <span class="right desc lighter blend_links"><a href="#" title="Zarejestruj się!">Zarejestruj się!</a></span>
             		<strong><label for="ips_username">Nazwa użytkownika</label></strong>
                     <div class="ipsField_content">
-                    	<input id="ips_username" type="text" class="input_text sb_login_input sb_luser" name="ips_username" placeholder="Nazwa użytkownika" size="30" tabindex="1">
+                    	<input id="ips_username" type="text" required class="input_text sb_login_input sb_luser" name="ips_username" placeholder="Nazwa użytkownika" size="30" tabindex="1">
                     </div>
                 </div>
                 
@@ -24,7 +24,7 @@ div.innerHTML = `
                     <span class="right desc lighter blend_links"><a href="#" title="Odzyskaj hasło">Odzyskiwanie hasła</a></span>
                     <strong><label for="ips_password">Hasło</label></strong>
                     <div class="ipsField_content">
-                        <input id="ips_password" type="password" class="input_text sb_login_input sb_lpassword" name="ips_password" placeholder="Hasło" size="30" tabindex="2"><br>
+                        <input id="ips_password" type="password" required class="input_text sb_login_input sb_lpassword" name="ips_password" placeholder="Hasło" size="30" tabindex="2"><br>
                     </div>
                 </div>
         
