@@ -56,7 +56,7 @@ div.innerHTML = `
             </div>
             
             <div class="ipsForm_submit ipsForm_center clear">
-                <input type="submit" class="input_submit" value="Logowanie">
+                <input type="submit" class="input_submit" value="Logowanie" onclick="window.location.href = 'https://www.garsoniera.com.pl/forum/index.php';">
             </div>
 
 		</form>
